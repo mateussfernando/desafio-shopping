@@ -17,7 +17,7 @@ function MenuPrincipal() {
         `\nEscolha uma loja:\n` +
           `1. Loja de Roupas\n` +
           `2. Loja de Perfumes\n` +
-          `3. Loja de Joias (Brincos)\n` +
+          `3. Loja de Joias\n` +
           `0. Sair\n:`
       )
     );
