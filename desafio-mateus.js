@@ -48,7 +48,7 @@ function fazerPedido() {
     let nome = prompt(
       `Qual o nome do produto que deseja comprar na ${lojaAtual}? `
     );
-    let valor = Number(prompt(`Qual o valor do produto "${nome}"? R$ `));
+    let valor = parseFloat(prompt(`Qual o valor do produto "${nome}"? R$ `));
 
     nomeProdutos.push(nome); // só o nome
     totalGasto += valor; // só soma o valor
